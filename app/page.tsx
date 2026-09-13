@@ -83,7 +83,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="border-b border-brand-border bg-white">
+      <section id="compliance" className="border-b border-brand-border bg-white">
         <div className="mx-auto max-w-content px-4 py-20">
           <h2 className="text-3xl font-bold text-brand-ink">
             Compliance for Critical Infrastructure &amp; Financial Services

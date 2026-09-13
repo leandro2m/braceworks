@@ -198,6 +198,10 @@ Generative AI adoption is rarely a single decision. It's a spectrum, and the rig
 **Our framework: Observability → Governance → Agent Boundaries → Runtime Protection**
 We apply a four-stage progression across all three categories, recommending specific technical controls based on what your environment and risk profile actually require, from usage policy and DLP to LLM gateways, CNAPP integration, and runtime monitoring. The framework is vendor-agnostic: no recommendation is tied to a single product line.
 
+An LLM Gateway is one of the key controls at the Runtime Protection stage, giving you a central point to inspect prompts and tool calls before they reach a model or an external service. See our breakdown of how that fits alongside your existing firewalls, WAFs, and identity controls in [Defense in Depth for LLM Applications](/insights/defense-in-depth-for-llm-applications).
+
+At the Agent Boundaries stage, we also assess execution sandboxing, isolating the code an agent runs and the actions it takes in a disposable, restricted environment so that a manipulated agent cannot reach beyond the task it was given. This contains the damage even when a prompt injection or a poisoned tool gets past inspection.
+
 **What you get**
 A clear picture of where your organization sits on the GenAI adoption spectrum, the specific risks tied to your actual use cases, and a practical set of controls for data protection, governance, AI-agent boundaries, and responsible deployment.
 

@@ -96,6 +96,13 @@ export default function GenerativeAiSecurityPage() {
           </Link>
           .
         </p>
+        <p className="mt-4 max-w-3xl text-brand-muted">
+          At the Agent Boundaries stage, we also assess execution sandboxing, isolating
+          the code an agent runs and the actions it takes in a disposable, restricted
+          environment so that a manipulated agent cannot reach beyond the task it was
+          given. This contains the damage even when a prompt injection or a poisoned
+          tool gets past inspection.
+        </p>
       </section>
 
       <section className="mt-12">

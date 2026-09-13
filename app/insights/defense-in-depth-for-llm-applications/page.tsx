@@ -51,6 +51,23 @@ export default function DefenseInDepthForLlmApplicationsArticlePage() {
         interactions with models, while working with the network, identity, and
         application controls the company already has.
       </p>
+      <p className="mt-4 text-brand-muted">
+        IBM and the Ponemon Institute&rsquo;s{" "}
+        <a
+          href="https://www.ibm.com/reports/data-breach"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={linkClass}
+        >
+          Cost of a Data Breach Report 2026
+        </a>{" "}
+        makes a similar point at scale. Among organizations that had an AI-related
+        breach, incidents were less about which model they chose than about the security
+        of the model and its surrounding environment. Root causes were often structural:
+        compromised APIs, applications, and cloud misconfigurations, pointing to
+        governance failures rather than model risk. AI-related breaches also grew
+        sharply, up 61% year over year to 21% of the organizations studied.
+      </p>
 
       <h2 className="mt-10 text-2xl font-bold text-brand-ink">
         Firewalls and WAFs remain essential
@@ -107,6 +124,13 @@ export default function DefenseInDepthForLlmApplicationsArticlePage() {
         The attacker does not always need to interact directly with the chatbot.
         Instructions can arrive through an email, a document, a website, or the result
         of a tool call.
+      </p>
+      <p className="mt-4 text-brand-muted">
+        The financial impact is measurable. IBM&rsquo;s 2026 research found breaches
+        involving an AI model prompt injection incident cost an average of USD 5.89
+        million, nearly 18% above the global breach average, and breaches involving
+        model inversion (extracting sensitive data from a model) were even costlier at
+        USD 6.07 million.
       </p>
       <p className="mt-4 text-brand-muted">
         In June 2025, researchers disclosed EchoLeak, a vulnerability in Microsoft 365
@@ -174,9 +198,9 @@ export default function DefenseInDepthForLlmApplicationsArticlePage() {
       </p>
       <p className="mt-4 text-brand-muted">
         An MCP tool can provide its name, a description of what it does, and the
-        parameters it accepts. The description is written in natural language, often
-        English, to help the model understand when and how to use the tool. Calls and
-        parameters also use structured formats defined by the protocol. See the{" "}
+        parameters it accepts. The description is written in natural language to help
+        the model understand when and how to use the tool. Calls and parameters also
+        use structured formats defined by the protocol. See the{" "}
         <a
           href="https://modelcontextprotocol.io/specification/2025-06-18/server/tools"
           target="_blank"
@@ -223,6 +247,12 @@ export default function DefenseInDepthForLlmApplicationsArticlePage() {
         This is why approving a connector once is not enough. Companies need to review
         changes to tool descriptions, behavior, and permissions throughout the life of
         the integration.
+      </p>
+      <p className="mt-4 text-brand-muted">
+        IBM classifies this kind of exposure as compromise of connected apps, APIs, or
+        plug-ins, and found it added an average of USD 4.37 million to breach costs,
+        one more sign that the integration layer, not just the model, needs its own
+        controls.
       </p>
 
       <h2 className="mt-10 text-2xl font-bold text-brand-ink">
@@ -284,6 +314,14 @@ export default function DefenseInDepthForLlmApplicationsArticlePage() {
         does not necessarily need permission to send it to any recipient.
       </p>
       <p className="mt-4 text-brand-muted">
+        The data backs up why this matters. In IBM&rsquo;s 2026 report, 92% of
+        organizations that had an AI-related breach lacked proper AI access controls,
+        things like role-based access and multi-factor authentication. Fewer than half
+        of organizations (46%) said they secure non-human identities in their AI
+        workflows at all, and among those that do, only 32% extend zero trust
+        principles to those identities.
+      </p>
+      <p className="mt-4 text-brand-muted">
         User passwords, API keys, and access tokens should not be placed in prompts or
         exposed to the model. Trusted execution components should manage credentials
         and apply the permissions needed for each operation.
@@ -306,6 +344,12 @@ export default function DefenseInDepthForLlmApplicationsArticlePage() {
         The model can propose an action. A separate control should determine whether
         that action is allowed.
       </p>
+      <p className="mt-4 text-brand-muted">
+        IBM&rsquo;s own recommendations point in the same direction: shifting identity
+        security to continuous, runtime verification, with just-in-time access,
+        time-bound approvals, and continuous risk-based controls, rather than a
+        one-time authorization check when an agent is first provisioned.
+      </p>
 
       <h2 className="mt-10 text-2xl font-bold text-brand-ink">
         Governance should make productive use possible
@@ -318,6 +362,15 @@ export default function DefenseInDepthForLlmApplicationsArticlePage() {
         A blanket prohibition can make legitimate work more difficult and encourage
         employees to find alternatives outside approved channels. Unrestricted access
         creates a different set of problems.
+      </p>
+      <p className="mt-4 text-brand-muted">
+        The cost of getting this wrong is already visible. IBM&rsquo;s 2026 research
+        found security incidents involving shadow AI, employees using unapproved
+        tools, more than doubled to 43% of AI-related incidents this year, and cost
+        more on average (USD 5.39 million) than incidents involving sanctioned AI use.
+        Governance gaps compound the problem: only a third of organizations had strict
+        approval processes for AI deployments, down from 45% the year before, and just
+        19% said their governance and security teams coordinate at all.
       </p>
       <p className="mt-4 text-brand-muted">
         Companies need a clear and practical policy that answers the questions
@@ -520,6 +573,17 @@ export default function DefenseInDepthForLlmApplicationsArticlePage() {
       </h2>
       <p className="mt-4 text-brand-muted">
         AI adoption increases the value of security controls that work together.
+      </p>
+      <p className="mt-4 text-brand-muted">
+        This is particularly acute in critical infrastructure and financial services,
+        which together accounted for 62% of AI-driven attacks in IBM&rsquo;s 2026
+        research, with financial services breaches averaging USD 6.29 million. These
+        are exactly the sectors where{" "}
+        <Link href="/#compliance" className={linkClass}>
+          named compliance frameworks
+        </Link>{" "}
+        already require the kind of layered, auditable controls this article
+        describes.
       </p>
       <p className="mt-4 text-brand-muted">
         Firewalls and WAFs protect communications and applications. Identity limits
