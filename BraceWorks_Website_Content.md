@@ -142,7 +142,7 @@ BRACEWorks Consulting was founded to bring that same rigor, architecture first, 
 
 ### Our Approach
 
-We don't start with a product. We start with your environment: what you've built, what you've adopted, what's actually at risk, and what you can realistically operationalize. Every recommendation is evaluated against your infrastructure, budget, compliance obligations, and operational maturity, not against a sales quota.
+We don't start with a product. We start with your environment: what you've built, what you've adopted, what's actually at risk, and what you can realistically operationalize. Every recommendation is evaluated against your infrastructure, budget, compliance obligations, and operational maturity.
 
 ### Independence, in Practice
 

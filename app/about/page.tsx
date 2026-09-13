@@ -72,7 +72,7 @@ export default function AboutPage() {
           you&apos;ve built, what you&apos;ve adopted, what&apos;s actually at risk, and
           what you can realistically operationalize. Every recommendation is evaluated
           against your infrastructure, budget, compliance obligations, and operational
-          maturity, not against a sales quota.
+          maturity.
         </p>
       </section>
 
