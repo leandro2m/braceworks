@@ -1,6 +1,6 @@
-# BRACEWorks Cloud & AI Security — Website
+# BRACEWorks Cloud & AI Security Website
 
-Marketing website for BRACEWorks Cloud & AI Security, built with Next.js 14 (App Router), TypeScript, and Tailwind CSS. Content is sourced verbatim from `BraceWorks_Website_Content.md` and lives directly in the codebase — no CMS, no external database.
+Marketing website for BRACEWorks Cloud & AI Security, built with Next.js 14 (App Router), TypeScript, and Tailwind CSS. Content is sourced verbatim from `BraceWorks_Website_Content.md` and lives directly in the codebase. There's no CMS and no external database.
 
 ## Local development
 
@@ -20,11 +20,9 @@ npm start
 
 ## Deployment
 
-**Recommended: [Vercel](https://vercel.com).** It's zero-config for Next.js App Router projects, including Server Actions (used by the contact form) — connect the repository and deploy.
+The site is deployed on [Vercel](https://vercel.com), connected to the `leandro2m/braceworks` GitHub repository. Every push to `main` triggers an automatic production deployment.
 
-**Alternative: Netlify.** Netlify can host this project, but Server Actions require Netlify's [Next.js runtime adapter](https://docs.netlify.com/frameworks/next-js/overview/) to work correctly. Confirm the adapter is enabled before relying on the contact form in production.
-
-Once deployed, point the `braceworks.ai` domain at your chosen host via DNS. This is a manual step to be done outside of this project — no deployment credentials, hosting accounts, or DNS changes are configured here.
+Once you're ready to go live on the `braceworks.ai` domain, add it under the project's Settings > Domains in Vercel, then point your DNS at Vercel following the instructions shown there. That step is manual and happens outside of this repository.
 
 ## Contact form
 
