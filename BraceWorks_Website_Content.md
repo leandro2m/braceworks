@@ -182,6 +182,8 @@ A prioritized, actionable remediation roadmap, not a generic scan report, tailor
 
 ### 4.2 Generative AI Security Consulting
 
+**Tagline:** LLM & Agentic AI Security
+
 **Meta title:** Generative AI Security Consulting | BraceWorks Consulting
 
 **Overview**

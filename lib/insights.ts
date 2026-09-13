@@ -20,6 +20,13 @@ export const publishedArticles: PublishedArticle[] = [
       "Prompt injection, MCP tool poisoning, memory poisoning, and supply chain risk are documented, growing threats to enterprise AI agents. Here's what each one means and how the BRACE methodology addresses them.",
     date: "2026-09-13",
   },
+  {
+    slug: "defense-in-depth-for-llm-applications",
+    title: "Defense in Depth for LLM Applications",
+    description:
+      "How an LLM Gateway fits alongside the firewalls, WAFs, and identity controls companies already have, and why prompt injection, MCP tool poisoning, and supply chain risk call for inspection at the model layer too.",
+    date: "2026-09-13",
+  },
 ];
 
 export const plannedTopics: string[] = [

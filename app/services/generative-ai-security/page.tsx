@@ -30,6 +30,9 @@ export default function GenerativeAiSecurityPage() {
       <h1 className="max-w-3xl text-4xl font-bold text-brand-ink">
         Generative AI Security Consulting
       </h1>
+      <p className="mt-2 text-sm font-semibold uppercase tracking-wide text-brand-navy">
+        LLM &amp; Agentic AI Security
+      </p>
 
       <section className="mt-10">
         <h2 className="text-2xl font-bold text-brand-ink">Overview</h2>
@@ -79,6 +82,19 @@ export default function GenerativeAiSecurityPage() {
           actually require, from usage policy and DLP to LLM gateways, CNAPP integration,
           and runtime monitoring. The framework is vendor-agnostic: no recommendation is
           tied to a single product line.
+        </p>
+        <p className="mt-4 max-w-3xl text-brand-muted">
+          An LLM Gateway is one of the key controls at the Runtime Protection stage,
+          giving you a central point to inspect prompts and tool calls before they
+          reach a model or an external service. See our breakdown of how that fits
+          alongside your existing firewalls, WAFs, and identity controls in{" "}
+          <Link
+            href="/insights/defense-in-depth-for-llm-applications"
+            className="font-semibold text-brand-navy hover:text-brand-slate"
+          >
+            Defense in Depth for LLM Applications
+          </Link>
+          .
         </p>
       </section>
 

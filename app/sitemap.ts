@@ -12,6 +12,7 @@ const routes = [
   "/insights",
   "/insights/five-principles-for-securing-cloud-and-ai-environments",
   "/insights/securing-agentic-ai-adoption",
+  "/insights/defense-in-depth-for-llm-applications",
   "/resources",
   "/contact",
 ];
