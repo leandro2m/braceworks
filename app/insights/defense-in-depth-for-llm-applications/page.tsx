@@ -28,6 +28,7 @@ export default function DefenseInDepthForLlmApplicationsArticlePage() {
     <article className="mx-auto max-w-4xl px-4 py-16 sm:py-20">
       <p className="text-sm text-brand-muted">BRACEWorks - Cloud &amp; AI Security</p>
       <h1 className="mt-2 text-4xl font-bold text-brand-ink">{article.title}</h1>
+      <p className="mt-3 text-sm font-medium text-brand-ink">By Leandro Momesso de Moraes</p>
 
       <p className="mt-8 text-brand-muted">
         Companies are moving quickly to put AI into everyday work. Employees are using

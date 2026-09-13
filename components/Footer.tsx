@@ -15,9 +15,6 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex gap-6 text-sm">
-            <Link href="/privacy" className="text-brand-footer-muted hover:text-white">
-              Privacy Policy
-            </Link>
             <Link href="/terms" className="text-brand-footer-muted hover:text-white">
               Terms of Service
             </Link>
