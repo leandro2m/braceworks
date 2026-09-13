@@ -115,7 +115,7 @@ BRACEWorks adds an outside-in view of cyber risk to the internal evidence you al
 ### Closing section
 
 **Headline:** An independent practice, built to last beyond any single engagement.
-**Body:** BRACEWorks is an independent, U.S.-based cybersecurity advisory practice. We're building our methodology, our technical frameworks, and our client relationships from the ground up, with no vendor allegiance and no shortcuts.
+**Body:** BRACEWorks is an independent, U.S.-based cybersecurity advisory practice. We're continuing to build our methodology to help organizations meet security requirements, reduce their attack surface, and respond immediately when something happens, through well-defined playbooks.
 **CTA:** Get in touch
 
 ---

@@ -162,8 +162,9 @@ export default function HomePage() {
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-white/85">
             BRACEWorks is an independent, U.S.-based cybersecurity advisory practice.
-            We&apos;re building our methodology, our technical frameworks, and our client
-            relationships from the ground up, with no vendor allegiance and no shortcuts.
+            We&apos;re continuing to build our methodology to help organizations meet
+            security requirements, reduce their attack surface, and respond immediately
+            when something happens, through well-defined playbooks.
           </p>
           <CTAButton href="/contact" variant="inverted" className="mt-8">
             Get in touch
