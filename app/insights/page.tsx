@@ -25,7 +25,7 @@ export default function InsightsPage() {
   return (
     <div className="mx-auto max-w-content px-4 py-16 sm:py-20">
       <h1 className="text-4xl font-bold text-brand-ink">Insights</h1>
-      <p className="mt-6 max-w-3xl text-brand-muted">
+      <p className="mt-6 max-w-4xl text-brand-muted">
         BRACEWorks publishes technical insights on cloud security, generative AI security,
         and security governance. They&apos;re grounded in documented industry data and
         public frameworks rather than vendor marketing. Articles will be added here as
@@ -33,7 +33,7 @@ export default function InsightsPage() {
       </p>
 
       <section className="mt-12">
-        <ul className="max-w-3xl space-y-4">
+        <ul className="max-w-4xl space-y-4">
           {publishedArticles.map((article) => (
             <li
               key={article.slug}
@@ -57,7 +57,7 @@ export default function InsightsPage() {
         <h2 className="text-2xl font-bold text-brand-ink">
           Planned topics (not yet published)
         </h2>
-        <ul className="mt-4 max-w-3xl list-disc space-y-3 pl-5 text-brand-muted">
+        <ul className="mt-4 max-w-4xl list-disc space-y-3 pl-5 text-brand-muted">
           {plannedTopics.map((topic) => (
             <li key={topic}>{topic}</li>
           ))}

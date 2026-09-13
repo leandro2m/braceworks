@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 export default function SecuringAgenticAiAdoptionArticlePage() {
   return (
-    <article className="mx-auto max-w-3xl px-4 py-16 sm:py-20">
+    <article className="mx-auto max-w-4xl px-4 py-16 sm:py-20">
       <p className="text-sm text-brand-muted">BRACEWorks - Cloud &amp; AI Security</p>
       <h1 className="mt-2 text-4xl font-bold text-brand-ink">{article.title}</h1>
 

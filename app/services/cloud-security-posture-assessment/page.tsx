@@ -27,13 +27,13 @@ export default function CloudSecurityPostureAssessmentPage() {
       <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-md bg-brand-navy/10 text-brand-navy">
         <Cloud aria-hidden="true" className="h-7 w-7" strokeWidth={1.75} />
       </div>
-      <h1 className="max-w-3xl text-4xl font-bold text-brand-ink">
+      <h1 className="max-w-4xl text-4xl font-bold text-brand-ink">
         Cloud Security Posture Assessment &amp; Enhancement
       </h1>
 
       <section className="mt-10">
         <h2 className="text-2xl font-bold text-brand-ink">Overview</h2>
-        <p className="mt-4 max-w-3xl text-brand-muted">
+        <p className="mt-4 max-w-4xl text-brand-muted">
           Cloud environments become complex fast. Multiple accounts, multiple providers,
           and configuration drift outpace any single team&apos;s visibility. Our
           Cloud Security Posture Assessment identifies where that complexity has turned
@@ -43,7 +43,7 @@ export default function CloudSecurityPostureAssessmentPage() {
 
       <section className="mt-12">
         <h2 className="text-2xl font-bold text-brand-ink">What we assess</h2>
-        <ul className="mt-4 max-w-3xl list-disc space-y-3 pl-5 text-brand-muted">
+        <ul className="mt-4 max-w-4xl list-disc space-y-3 pl-5 text-brand-muted">
           <li>
             Multi-cloud configuration and identity posture across AWS, Microsoft Azure,
             Google Cloud Platform, and Oracle Cloud Infrastructure
@@ -71,7 +71,7 @@ export default function CloudSecurityPostureAssessmentPage() {
 
       <section className="mt-12">
         <h2 className="text-2xl font-bold text-brand-ink">How we work</h2>
-        <p className="mt-4 max-w-3xl text-brand-muted">
+        <p className="mt-4 max-w-4xl text-brand-muted">
           Assessments draw on native cloud security services (AWS GuardDuty, AWS Config,
           AWS Security Hub, Microsoft Defender for Cloud, Google Security Command Center)
           and, where it genuinely fits the client&apos;s environment, third-party
@@ -82,7 +82,7 @@ export default function CloudSecurityPostureAssessmentPage() {
 
       <section className="mt-12">
         <h2 className="text-2xl font-bold text-brand-ink">What you get</h2>
-        <p className="mt-4 max-w-3xl text-brand-muted">
+        <p className="mt-4 max-w-4xl text-brand-muted">
           A prioritized, actionable remediation roadmap, not a generic scan report,
           tailored to your existing tools, budget, risk profile, and operational maturity.
           Findings are organized by the BRACE methodology&apos;s Baseline and Risk stages,

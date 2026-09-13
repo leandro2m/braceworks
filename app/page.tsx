@@ -34,7 +34,7 @@ export default function HomePage() {
 
       <section className="mx-auto max-w-content px-4 py-20">
         <h2 className="text-3xl font-bold text-brand-ink">Why BRACEWorks</h2>
-        <p className="mt-6 max-w-3xl text-brand-muted">
+        <p className="mt-6 max-w-4xl text-brand-muted">
           Most cybersecurity engagements are shaped by the tools a vendor wants to sell.
           BRACEWorks starts from the opposite direction. We look at your architecture,
           your risk profile, and your existing investments, then recommend the controls
@@ -88,12 +88,12 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-brand-ink">
             Compliance for Critical Infrastructure &amp; Financial Services
           </h2>
-          <p className="mt-6 max-w-3xl text-brand-muted">
+          <p className="mt-6 max-w-4xl text-brand-muted">
             Our methodology is informed by leading cybersecurity and compliance
             frameworks relevant to critical infrastructure and financial services in the
             United States, including:
           </p>
-          <ul className="mt-6 grid max-w-3xl gap-3 sm:grid-cols-2">
+          <ul className="mt-6 grid max-w-4xl gap-3 sm:grid-cols-2">
             {complianceFrameworks.map((framework) => (
               <li
                 key={framework}
@@ -107,7 +107,7 @@ export default function HomePage() {
           <h3 className="mt-16 text-2xl font-bold text-brand-ink">
             How to Choose and Use the Right Frameworks
           </h3>
-          <ol className="mt-6 max-w-3xl list-decimal space-y-5 pl-5 text-brand-muted">
+          <ol className="mt-6 max-w-4xl list-decimal space-y-5 pl-5 text-brand-muted">
             {frameworkSteps.map((step) => (
               <li key={step.title}>
                 <span className="font-semibold text-brand-ink">{step.title}.</span>{" "}
@@ -119,7 +119,7 @@ export default function HomePage() {
           <h3 className="mt-16 text-2xl font-bold text-brand-ink">
             The Real Goal Is Defensible, Continuous Risk Management
           </h3>
-          <p className="mt-6 max-w-3xl text-brand-muted">
+          <p className="mt-6 max-w-4xl text-brand-muted">
             Frameworks, certifications, and reports provide valuable structure and
             evidence. But each one has a defined scope and a point-in-time or
             period-of-time boundary, while your assets, cloud services, vulnerabilities,
@@ -131,7 +131,7 @@ export default function HomePage() {
           </p>
 
           <h3 className="mt-16 text-2xl font-bold text-brand-ink">How BRACEWorks Helps</h3>
-          <p className="mt-6 max-w-3xl text-brand-muted">
+          <p className="mt-6 max-w-4xl text-brand-muted">
             BRACEWorks adds an outside-in view of cyber risk to the internal evidence you
             already collect. That combined picture helps your team see what&apos;s
             changed between formal assessments and focus follow-up work where it
@@ -159,7 +159,7 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-white">
             An independent practice, built to last beyond any single engagement.
           </h2>
-          <p className="mx-auto mt-6 max-w-2xl text-white/85">
+          <p className="mx-auto mt-6 max-w-3xl text-white/85">
             BRACEWorks is an independent, U.S.-based cybersecurity advisory practice.
             We&apos;re continuing to build our methodology to help organizations meet
             security requirements, reduce their attack surface, and respond immediately

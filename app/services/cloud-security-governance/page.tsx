@@ -27,13 +27,13 @@ export default function CloudSecurityGovernancePage() {
       <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-md bg-brand-navy/10 text-brand-navy">
         <ClipboardList aria-hidden="true" className="h-7 w-7" strokeWidth={1.75} />
       </div>
-      <h1 className="max-w-3xl text-4xl font-bold text-brand-ink">
+      <h1 className="max-w-4xl text-4xl font-bold text-brand-ink">
         Cloud Security Governance &amp; Playbook Development
       </h1>
 
       <section className="mt-10">
         <h2 className="text-2xl font-bold text-brand-ink">Overview</h2>
-        <p className="mt-4 max-w-3xl text-brand-muted">
+        <p className="mt-4 max-w-4xl text-brand-muted">
           An assessment identifies risk. Governance is what keeps that risk from coming
           back. This service builds the durable, institutional layer your team needs to
           sustain a strong security posture after any single engagement ends.
@@ -42,7 +42,7 @@ export default function CloudSecurityGovernancePage() {
 
       <section className="mt-12">
         <h2 className="text-2xl font-bold text-brand-ink">What we build with you</h2>
-        <ul className="mt-4 max-w-3xl list-disc space-y-3 pl-5 text-brand-muted">
+        <ul className="mt-4 max-w-4xl list-disc space-y-3 pl-5 text-brand-muted">
           <li>
             Cloud security baselines aligned to your cloud provider&apos;s
             well-architected framework
@@ -72,14 +72,14 @@ export default function CloudSecurityGovernancePage() {
         <h2 className="text-2xl font-bold text-brand-ink">
           Frameworks we help you align with
         </h2>
-        <p className="mt-4 max-w-3xl text-brand-muted">
+        <p className="mt-4 max-w-4xl text-brand-muted">
           Extremely regulated industries, including financial services, healthcare, and
           critical infrastructure, are increasingly held to named compliance frameworks,
           not just internal policy. Our governance work aligns
           your cloud security posture and control environment with the frameworks your
           organization is actually held to, including:
         </p>
-        <ul className="mt-4 max-w-3xl list-disc space-y-3 pl-5 text-brand-muted">
+        <ul className="mt-4 max-w-4xl list-disc space-y-3 pl-5 text-brand-muted">
           <li>
             <strong className="text-brand-ink">SOC 2:</strong> the Trust Services
             Criteria most commonly required by enterprise customers, covering security,
@@ -110,7 +110,7 @@ export default function CloudSecurityGovernancePage() {
             reference.
           </li>
         </ul>
-        <p className="mt-4 max-w-3xl text-brand-muted">
+        <p className="mt-4 max-w-4xl text-brand-muted">
           BRACEWorks is not an accredited auditor, CPA firm, or certification body.
           This work prepares your environment for a formal audit or certification. The
           assessment or attestation itself must be performed by an appropriately
@@ -120,7 +120,7 @@ export default function CloudSecurityGovernancePage() {
 
       <section className="mt-12">
         <h2 className="text-2xl font-bold text-brand-ink">Why this matters</h2>
-        <p className="mt-4 max-w-3xl text-brand-muted">
+        <p className="mt-4 max-w-4xl text-brand-muted">
           A cloud security assessment may identify risk; a governance program prevents
           the same weaknesses from recurring. An incident response playbook reduces
           confusion during a real event, shortens response time, and clarifies who owns

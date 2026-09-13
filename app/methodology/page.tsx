@@ -25,7 +25,7 @@ export default function MethodologyPage() {
   return (
     <div className="mx-auto max-w-content px-4 py-16 sm:py-20">
       <h1 className="text-4xl font-bold text-brand-ink">The BRACE Methodology</h1>
-      <p className="mt-6 max-w-3xl text-brand-muted">
+      <p className="mt-6 max-w-4xl text-brand-muted">
         Every BRACEWorks engagement follows BRACE, a structured, repeatable path from
         &ldquo;where is this organization exposed&rdquo; to &ldquo;how does it stay ahead
         of that exposure.&rdquo; BRACE is BRACEWorks&apos;s own methodology, built
@@ -38,7 +38,7 @@ export default function MethodologyPage() {
         ))}
       </div>
 
-      <p className="mt-12 max-w-3xl border-t border-brand-border pt-8 text-lg font-medium text-brand-ink">
+      <p className="mt-12 max-w-4xl border-t border-brand-border pt-8 text-lg font-medium text-brand-ink">
         BRACE isn&apos;t a checklist. It&apos;s how we make sure every assessment
         produces something a client&apos;s team can actually run with, long after
         we&apos;re gone.

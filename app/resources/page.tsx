@@ -34,14 +34,14 @@ export default function ResourcesPage() {
   return (
     <div className="mx-auto max-w-content px-4 py-16 sm:py-20">
       <h1 className="text-4xl font-bold text-brand-ink">Resources</h1>
-      <p className="mt-6 max-w-3xl text-brand-muted">
+      <p className="mt-6 max-w-4xl text-brand-muted">
         As part of our engagements, BRACEWorks develops the following deliverable
         templates with clients. They&apos;re listed here to show what a BRACEWorks
         engagement produces. They&apos;re available as part of an engagement, not as
         free downloads.
       </p>
 
-      <ul className="mt-10 grid max-w-3xl gap-4 sm:grid-cols-2">
+      <ul className="mt-10 grid max-w-4xl gap-4 sm:grid-cols-2">
         {deliverables.map((item) => (
           <li
             key={item}
