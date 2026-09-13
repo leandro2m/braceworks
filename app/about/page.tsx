@@ -55,8 +55,8 @@ export default function AboutPage() {
           certification, and the AWS Certified Machine Learning Engineer certification,
           alongside graduate-level study in Data Science and Artificial Intelligence.
           Over his career, he has designed and implemented security architectures for
-          organizations across the energy, mining, media, and cloud infrastructure
-          sectors.
+          organizations across the energy, mining, media, finance, and cloud
+          infrastructure sectors.
         </p>
         <p className="mt-4 max-w-3xl text-brand-muted">
           BRACEWorks Consulting was founded to bring that same rigor, architecture
