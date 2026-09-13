@@ -15,9 +15,9 @@ export default function Hero() {
             guidance on strategy, security, and governance.
           </p>
           <p className="mt-4 max-w-2xl text-lg text-brand-muted">
-            We are an independent consultancy. We don&rsquo;t sell vendor products. Our role
-            is to help you understand your options and make decisions that fit your
-            business.
+            As an independent consultancy, we help your organization build a
+            defense-in-depth strategy for cloud and AI, one that fits your business
+            goals and risk tolerance rather than a vendor&rsquo;s roadmap.
           </p>
           <p className="mt-6 max-w-2xl text-lg font-semibold text-brand-ink">
             Let&rsquo;s talk about your next step.

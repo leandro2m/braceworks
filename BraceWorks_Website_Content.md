@@ -46,7 +46,7 @@
 
 **Subheadline:** BRACEWorks helps organizations adopt cloud and AI securely, with practical guidance on strategy, security, and governance.
 
-We are an independent consultancy. We don't sell vendor products. Our role is to help you understand your options and make decisions that fit your business.
+As an independent consultancy, we help your organization build a defense-in-depth strategy for cloud and AI, one that fits your business goals and risk tolerance rather than a vendor's roadmap.
 
 **Let's talk about your next step.**
 
