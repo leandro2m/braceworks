@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Cloud Security Governance & Playbooks | BRACEWorks - Cloud & AI Security",
     description:
       "BRACEWorks builds the durable, institutional layer your team needs to sustain a strong security posture after any single engagement ends: baselines, playbooks, and reporting.",
-    url: "https://braceworks.ai/services/cloud-security-governance",
+    url: "https://braceworks.net/services/cloud-security-governance",
     type: "website",
   },
   twitter: {

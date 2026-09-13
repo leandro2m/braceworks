@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "The BRACE Methodology | BRACEWorks - Cloud & AI Security",
     description:
       "BRACE is BRACEWorks's structured, repeatable methodology behind every engagement: Baseline, Risk Mitigation, AI Security, Cloud, Enhancement.",
-    url: "https://braceworks.ai/methodology",
+    url: "https://braceworks.net/methodology",
     type: "website",
   },
   twitter: {

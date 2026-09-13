@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Generative AI Security Consulting | BRACEWorks - Cloud & AI Security",
     description:
       "BRACEWorks helps organizations identify their stage of GenAI adoption and apply controls appropriate to that stage, from public-tool usage to custom models and autonomous agents.",
-    url: "https://braceworks.ai/services/generative-ai-security",
+    url: "https://braceworks.net/services/generative-ai-security",
     type: "website",
   },
   twitter: {

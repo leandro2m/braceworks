@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Contact BRACEWorks - Cloud & AI Security",
     description:
       "Get in touch with BRACEWorks about our methodology, a potential partnership, or a press or research inquiry.",
-    url: "https://braceworks.ai/contact",
+    url: "https://braceworks.net/contact",
     type: "website",
   },
   twitter: {

@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://braceworks.ai";
+const BASE_URL = "https://braceworks.net";
 
 const routes = [
   "",

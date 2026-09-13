@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Cloud Security Posture Assessment | BRACEWorks - Cloud & AI Security",
     description:
       "BRACEWorks identifies misconfigurations, excess privilege, and compliance gaps across AWS, Azure, Google Cloud, and Oracle Cloud Infrastructure, and turns findings into a prioritized, actionable remediation roadmap.",
-    url: "https://braceworks.ai/services/cloud-security-posture-assessment",
+    url: "https://braceworks.net/services/cloud-security-posture-assessment",
     type: "website",
   },
   twitter: {

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Insights | BRACEWorks - Cloud & AI Security",
     description:
       "BRACEWorks publishes technical insights on cloud security, generative AI security, and security governance, grounded in documented industry data and public frameworks.",
-    url: "https://braceworks.ai/insights",
+    url: "https://braceworks.net/insights",
     type: "website",
   },
   twitter: {

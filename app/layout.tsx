@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://braceworks.ai"),
+  metadataBase: new URL("https://braceworks.net"),
   title: "BRACEWorks - Cloud & AI Security | Vendor-Agnostic Cloud & AI Security Advisory",
   description:
     "BRACEWorks helps organizations adopt cloud and AI securely, with independent, vendor-agnostic guidance on strategy, security, and governance.",

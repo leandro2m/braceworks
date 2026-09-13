@@ -22,7 +22,7 @@ npm start
 
 The site is deployed on [Vercel](https://vercel.com), connected to the `leandro2m/braceworks` GitHub repository. Every push to `main` triggers an automatic production deployment.
 
-Once you're ready to go live on the `braceworks.ai` domain, add it under the project's Settings > Domains in Vercel, then point your DNS at Vercel following the instructions shown there. That step is manual and happens outside of this repository.
+Once you're ready to go live on the `braceworks.net` domain, add it under the project's Settings > Domains in Vercel, then point your DNS at Vercel following the instructions shown there. That step is manual and happens outside of this repository.
 
 ## Contact form
 

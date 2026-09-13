@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Resources | BRACEWorks - Cloud & AI Security",
     description:
       "The deliverable templates BRACEWorks develops with clients as part of an engagement: cloud security baselines, risk registers, incident response playbooks, and more.",
-    url: "https://braceworks.ai/resources",
+    url: "https://braceworks.net/resources",
     type: "website",
   },
   twitter: {

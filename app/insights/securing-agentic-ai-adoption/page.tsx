@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${article.title} | BRACEWorks - Cloud & AI Security`,
     description: article.description,
-    url: `https://braceworks.ai/insights/${article.slug}`,
+    url: `https://braceworks.net/insights/${article.slug}`,
     type: "article",
   },
   twitter: {
