@@ -41,6 +41,31 @@ export default function AboutPage() {
       </section>
 
       <section className="mt-16">
+        <h2 className="text-2xl font-bold text-brand-ink">About the Founder</h2>
+        <p className="mt-4 max-w-3xl text-brand-muted">
+          Leandro Momesso de Moraes is the founder and principal consultant at
+          BRACEWorks Consulting. He has spent more than two decades designing and
+          securing complex technology infrastructure, from enterprise and industrial
+          networks to multi-cloud environments and, most recently, generative and
+          agentic AI systems.
+        </p>
+        <p className="mt-4 max-w-3xl text-brand-muted">
+          His technical background includes the Cisco Certified Internetwork Expert
+          (CCIE) certification, the Certified Kubernetes Administrator (CKA)
+          certification, and the AWS Certified Machine Learning Engineer certification,
+          alongside graduate-level study in Data Science and Artificial Intelligence.
+          Over his career, he has designed and implemented security architectures for
+          organizations across the energy, mining, media, and cloud infrastructure
+          sectors.
+        </p>
+        <p className="mt-4 max-w-3xl text-brand-muted">
+          BRACEWorks Consulting was founded to bring that same rigor, architecture
+          first, vendor-agnostic, and grounded in real operational risk, to
+          organizations navigating cloud and AI adoption in the United States.
+        </p>
+      </section>
+
+      <section className="mt-16">
         <h2 className="text-2xl font-bold text-brand-ink">Our Approach</h2>
         <p className="mt-4 max-w-3xl text-brand-muted">
           We don&apos;t start with a product. We start with your environment: what

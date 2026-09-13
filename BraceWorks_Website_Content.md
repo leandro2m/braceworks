@@ -84,7 +84,7 @@ Every BraceWorks engagement follows BRACE: **B**aseline, **R**isk, **AI** Securi
 
 ### Compliance for Critical Infrastructure & Financial Services
 
-BRACEWorks also helps organizations in critical infrastructure and financial services meet the compliance requirements specific to those sectors in the United States. Our work is built around the frameworks these industries are held to most often:
+Our methodology is informed by leading cybersecurity and compliance frameworks relevant to critical infrastructure and financial services in the United States, including:
 
 - NIST Cybersecurity Framework 2.0
 - ISO/IEC 27001 and ISO/IEC 27002
@@ -93,8 +93,8 @@ BRACEWorks also helps organizations in critical infrastructure and financial ser
 - PCI DSS
 - NERC Critical Infrastructure Protection (CIP) standards
 - Cybersecurity Maturity Model Certification (CMMC)
-- General Data Protection Regulation (GDPR)
-- Digital Operational Resilience Act (DORA)
+- NYDFS 23 NYCRR 500
+- GLBA Safeguards Rule
 
 **How to Choose and Use the Right Frameworks**
 
@@ -130,18 +130,15 @@ BraceWorks was founded to close a specific gap: organizations moving fast into c
 
 BraceWorks is built to be different from the outset. It's an independent practice with no reseller incentives, no product to push, and a single objective: helping clients understand and reduce real exposure in cloud and AI environments.
 
-### Founder Background
+### About the Founder
 
-BraceWorks Consulting was founded by **Leandro Momesso de Moraes**, a cybersecurity professional specializing in cloud security architecture, cloud security incident response, and generative AI security.
+Leandro Momesso de Moraes is the founder and principal consultant at BRACEWorks Consulting. He has spent more than two decades designing and securing complex technology infrastructure, from enterprise and industrial networks to multi-cloud environments and, most recently, generative and agentic AI systems.
 
-Leandro's technical background includes:
+His technical background includes the Cisco Certified Internetwork Expert (CCIE) certification, the Certified Kubernetes Administrator (CKA) certification, and the AWS Certified Machine Learning Engineer certification, alongside graduate-level study in Data Science and Artificial Intelligence. Over his career, he has designed and implemented security architectures for organizations across the energy, mining, media, and cloud infrastructure sectors.
 
-- Multiple AWS certifications: Solutions Architect – Associate, Solutions Architect – Professional, Machine Learning Engineer – Associate, and Advanced Networking – Specialty.
-- Direct, hands-on experience designing and securing production generative AI workloads built on Amazon Bedrock, including foundation model evaluation, Bedrock Guardrails implementation, and secure enterprise knowledge-base integration.
-- Experience building and leading a cloud security incident response practice, covering preparation, detection, analysis, containment, remediation, and recovery for cloud-security incidents.
-- Multi-cloud architecture and security assessment experience across AWS, Microsoft Azure, and Google Cloud Platform, including regulated and critical-infrastructure-adjacent environments in financial services, energy, and enterprise technology sectors.
+BRACEWorks Consulting was founded to bring that same rigor, architecture first, vendor-agnostic, and grounded in real operational risk, to organizations navigating cloud and AI adoption in the United States.
 
-Leandro currently works as a cybersecurity professional at Fortinet, a global cybersecurity technology company, where he has developed and applied the methodology, technical experience, and industry knowledge that inform BraceWorks's independent practice. BraceWorks is a separate, independently owned and operated entity. It is not affiliated with, sponsored by, or operating on behalf of Fortinet or any other technology vendor.
+*(Note: does not name any current or past employer. Certifications listed are personal and verifiable. Do not add a photo, LinkedIn link, or other identifying detail until the public-exposure level of the site is decided.)*
 
 ### Our Approach
 

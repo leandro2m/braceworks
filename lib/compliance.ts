@@ -6,8 +6,8 @@ export const complianceFrameworks: string[] = [
   "PCI DSS",
   "NERC Critical Infrastructure Protection (CIP) standards",
   "Cybersecurity Maturity Model Certification (CMMC)",
-  "General Data Protection Regulation (GDPR)",
-  "Digital Operational Resilience Act (DORA)",
+  "NYDFS 23 NYCRR 500",
+  "GLBA Safeguards Rule",
 ];
 
 export type FrameworkStep = {

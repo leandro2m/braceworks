@@ -89,10 +89,9 @@ export default function HomePage() {
             Compliance for Critical Infrastructure &amp; Financial Services
           </h2>
           <p className="mt-6 max-w-3xl text-brand-muted">
-            BRACEWorks also helps organizations in critical infrastructure and financial
-            services meet the compliance requirements specific to those sectors in the
-            United States. Our work is built around the frameworks these industries are
-            held to most often:
+            Our methodology is informed by leading cybersecurity and compliance
+            frameworks relevant to critical infrastructure and financial services in the
+            United States, including:
           </p>
           <ul className="mt-6 grid max-w-3xl gap-3 sm:grid-cols-2">
             {complianceFrameworks.map((framework) => (
