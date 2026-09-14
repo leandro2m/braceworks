@@ -46,6 +46,43 @@ export default function GenerativeAiSecurityPage() {
 
       <section className="mt-12">
         <h2 className="text-2xl font-bold text-brand-ink">
+          Our Scope: Infrastructure Security, Not Model Security
+        </h2>
+        <p className="mt-4 max-w-4xl text-brand-muted">
+          AI architecture has two distinct layers, and it helps to be explicit about
+          which one we work in.
+        </p>
+        <p className="mt-4 max-w-4xl text-brand-muted">
+          <strong className="text-brand-ink">Model architecture</strong> is the internal
+          design of the AI model itself: its neural network layers, training data, and
+          optimization techniques. That responsibility sits with your data science and
+          machine learning teams, or with the model vendor. It is not something we do.
+        </p>
+        <p className="mt-4 max-w-4xl text-brand-muted">
+          <strong className="text-brand-ink">Infrastructure architecture</strong>{" "}
+          (sometimes called services architecture) is how your organization exposes and
+          consumes AI capabilities: the API gateways, load balancers, caching layers,
+          identity controls, and monitoring that sit between your users and the model.
+          This is where we work.
+        </p>
+        <p className="mt-4 max-w-4xl text-brand-muted">
+          The same questions apply whether your AI workloads run on infrastructure you
+          manage (IaaS), a managed platform (PaaS), or a fully managed AI service
+          (SaaS): who can reach your API endpoints, what data can leak through requests
+          and responses, how access is authenticated and rate-limited, and what gets
+          logged when something goes wrong. See our detailed breakdown of this layer in{" "}
+          <Link
+            href="/insights/defense-in-depth-for-llm-applications"
+            className="font-semibold text-brand-navy hover:text-brand-slate"
+          >
+            Defense in Depth for LLM Applications
+          </Link>
+          .
+        </p>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold text-brand-ink">
           Three categories of GenAI exposure we assess
         </h2>
         <ol className="mt-4 max-w-4xl list-decimal space-y-4 pl-5 text-brand-muted">
@@ -62,11 +99,13 @@ export default function GenerativeAiSecurityPage() {
             integration security, and access governance.
           </li>
           <li>
-            <strong className="text-brand-ink">Custom AI model and agent security:</strong>{" "}
+            <strong className="text-brand-ink">
+              Custom AI infrastructure and agent security:
+            </strong>{" "}
             organizations building on platforms such as Amazon Bedrock, Azure AI
-            Foundry, or Google Vertex AI. Risk centers on model validation, adversarial
-            robustness, secure data pipelines, AI-agent boundary enforcement, and runtime
-            protection.
+            Foundry, or Google Vertex AI. Risk centers on secure API integration,
+            endpoint exposure, secure data pipelines, AI-agent boundary enforcement, and
+            runtime protection.
           </li>
         </ol>
       </section>
