@@ -130,15 +130,13 @@ BraceWorks was founded to close a specific gap: organizations moving fast into c
 
 BraceWorks is built to be different from the outset. It's an independent practice with no reseller incentives, no product to push, and a single objective: helping clients understand and reduce real exposure in cloud and AI environments.
 
-### About the Founder
+### Our Team
 
-Leandro Momesso de Moraes is the founder and principal consultant at BRACEWorks Consulting. He has spent more than two decades designing and securing complex technology infrastructure, from enterprise and industrial networks to multi-cloud environments and, most recently, generative and agentic AI systems.
-
-His technical background includes the Cisco Certified Internetwork Expert (CCIE) certification, the Certified Kubernetes Administrator (CKA) certification, and the AWS Certified Machine Learning Engineer certification, alongside graduate-level study in Data Science and Artificial Intelligence. Over his career, he has designed and implemented security architectures for organizations across the energy, mining, media, finance, and cloud infrastructure sectors.
+BRACEWorks Consulting is formed by professionals with more than 20 years of experience in infrastructure technology, critical application development, and cybersecurity.
 
 BRACEWorks Consulting was founded to bring that same rigor, architecture first, vendor-agnostic, and grounded in real operational risk, to organizations navigating cloud and AI adoption in the United States.
 
-*(Note: does not name any current or past employer. Certifications listed are personal and verifiable. Do not add a photo, LinkedIn link, or other identifying detail until the public-exposure level of the site is decided.)*
+*(Note: no individual names or personal certifications on the public site. Team framed generically.)*
 
 ### Our Approach
 
