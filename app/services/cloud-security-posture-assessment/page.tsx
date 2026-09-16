@@ -86,24 +86,22 @@ export default function CloudSecurityPostureAssessmentPage() {
         </h2>
         <p className="mt-4 max-w-4xl text-brand-muted">
           As organizations adopt generative AI, the security challenge is rarely the
-          model itself. It&apos;s the cloud infrastructure, network paths, APIs, and
-          workloads around it. We apply the same cloud and network security discipline
-          used for any critical workload to the AI development lifecycle:
+          model itself. It&apos;s the cloud infrastructure, network paths, and APIs
+          around it. We apply the same cloud and network security discipline used for
+          any critical workload to the infrastructure that runs and exposes AI
+          services:
         </p>
         <ul className="mt-4 max-w-4xl list-disc space-y-3 pl-5 text-brand-muted">
           <li>
-            <strong className="text-brand-ink">Training data pipelines:</strong>{" "}
-            classification, encryption, and access control for the data lakes and
-            buckets used to train or fine-tune models, with segregation between
-            production and training data.
+            <strong className="text-brand-ink">Secure cloud architecture:</strong>{" "}
+            applying your cloud provider&apos;s well-architected best practices to the
+            accounts, networks, and services that run AI workloads, and minimizing the
+            attack surface exposed along the way.
           </li>
           <li>
-            <strong className="text-brand-ink">
-              Training and fine-tuning workloads:
-            </strong>{" "}
-            hardening the containers, instances, and functions that run model training,
-            including dependency and supply-chain checks on third-party pretrained
-            models.
+            <strong className="text-brand-ink">Inspected connections:</strong> routing
+            traffic to and from AI services through network and application security
+            controls, so every connection is inspected rather than trusted by default.
           </li>
           <li>
             <strong className="text-brand-ink">Inference isolation:</strong> segmenting
@@ -122,11 +120,16 @@ export default function CloudSecurityPostureAssessmentPage() {
             drift and anomalies surface the same way they would for any other cloud
             asset.
           </li>
+          <li>
+            <strong className="text-brand-ink">LLM Gateway adoption:</strong>{" "}
+            consulting on deploying an LLM Gateway, including open-source options such
+            as LiteLLM, as the central point for inspecting and governing traffic
+            between your applications and the models they call.
+          </li>
         </ul>
         <p className="mt-4 max-w-4xl text-brand-muted">
-          For the infrastructure controls, an LLM Gateway, prompt and response
-          inspection, agent boundaries, that defend against prompt injection and MCP
-          tool poisoning, see{" "}
+          For the agent-specific controls, prompt and response inspection, agent
+          boundaries, that defend against prompt injection and MCP tool poisoning, see{" "}
           <Link
             href="/services/generative-ai-security"
             className="font-semibold text-brand-navy hover:text-brand-slate"

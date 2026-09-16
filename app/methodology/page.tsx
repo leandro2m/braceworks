@@ -38,6 +38,20 @@ export default function MethodologyPage() {
         ))}
       </div>
 
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold text-brand-ink">AI Adoption Security</h2>
+        <p className="mt-4 max-w-4xl text-brand-muted">
+          The AI Security stage of BRACE isn&apos;t about auditing model behavior or
+          training data. It&apos;s about applying the same infrastructure discipline we
+          use everywhere else to the systems that run and expose AI: hardened cloud
+          architecture, network and application security controls that inspect every
+          connection, isolated inference workloads, and a central point, an LLM
+          Gateway, for governing traffic between your applications and the models they
+          call. That&apos;s where we&apos;re positioned to help, regardless of which
+          model or provider your organization uses.
+        </p>
+      </section>
+
       <p className="mt-12 max-w-4xl border-t border-brand-border pt-8 text-lg font-medium text-brand-ink">
         BRACE isn&apos;t a checklist. It&apos;s how we make sure every assessment
         produces something a client&apos;s team can actually run with, long after
