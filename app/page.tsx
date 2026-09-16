@@ -73,6 +73,19 @@ export default function HomePage() {
         </ul>
       </section>
 
+      <section className="mx-auto max-w-content px-4 py-20">
+        <BraceDiagram />
+        <div className="mt-14 flex justify-center">
+          <Link
+            href="/methodology"
+            className="inline-flex items-center gap-1.5 font-semibold text-brand-navy hover:text-brand-slate"
+          >
+            See how BRACE works
+            <ArrowRight aria-hidden="true" className="h-4 w-4" />
+          </Link>
+        </div>
+      </section>
+
       <section className="border-y border-brand-border bg-white">
         <div className="mx-auto max-w-content px-4 py-20">
           <h2 className="text-3xl font-bold text-brand-ink">What We Do</h2>
@@ -130,19 +143,6 @@ export default function HomePage() {
             matters. BRACEWorks does not certify compliance or replace legal advice,
             audits, regulator-required assessments, or internal control testing.
           </p>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-content px-4 py-20">
-        <BraceDiagram />
-        <div className="mt-14 flex justify-center">
-          <Link
-            href="/methodology"
-            className="inline-flex items-center gap-1.5 font-semibold text-brand-navy hover:text-brand-slate"
-          >
-            See how BRACE works
-            <ArrowRight aria-hidden="true" className="h-4 w-4" />
-          </Link>
         </div>
       </section>
 
