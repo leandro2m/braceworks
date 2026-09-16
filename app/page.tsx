@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import ServiceCard from "@/components/ServiceCard";
 import CTAButton from "@/components/CTAButton";
 import BraceDiagram from "@/components/BraceDiagram";
+import ComplianceFrameworks from "@/components/ComplianceFrameworks";
 import { serviceSummaries } from "@/lib/services";
 import { complianceFrameworks, frameworkSteps } from "@/lib/compliance";
 
@@ -93,16 +94,7 @@ export default function HomePage() {
             frameworks relevant to critical infrastructure and financial services in the
             United States, including:
           </p>
-          <ul className="mt-6 grid max-w-4xl gap-3 sm:grid-cols-2">
-            {complianceFrameworks.map((framework) => (
-              <li
-                key={framework}
-                className="rounded-lg border border-brand-border px-5 py-3 text-sm font-medium text-brand-ink"
-              >
-                {framework}
-              </li>
-            ))}
-          </ul>
+          <ComplianceFrameworks frameworks={complianceFrameworks} />
 
           <h3 className="mt-16 text-2xl font-bold text-brand-ink">
             How to Choose and Use the Right Frameworks

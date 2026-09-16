@@ -86,15 +86,17 @@ Every BraceWorks engagement follows BRACE: **B**aseline, **R**isk, **AI** Securi
 
 Our methodology is informed by leading cybersecurity and compliance frameworks relevant to critical infrastructure and financial services in the United States, including:
 
-- NIST Cybersecurity Framework 2.0
-- ISO/IEC 27001 and ISO/IEC 27002
-- CIS Critical Security Controls v8.1
-- SOC 2
-- PCI DSS
-- NERC Critical Infrastructure Protection (CIP) standards
-- Cybersecurity Maturity Model Certification (CMMC)
-- NYDFS 23 NYCRR 500
-- GLBA Safeguards Rule
+- **NIST Cybersecurity Framework 2.0**: a voluntary framework from the U.S. National Institute of Standards and Technology, organized into six functions: Govern, Identify, Protect, Detect, Respond, and Recover. Widely used as a common language for assessing and communicating cyber risk across industries.
+- **ISO/IEC 27001 and ISO/IEC 27002**: ISO/IEC 27001 is the international standard for an information security management system, the one organizations can be certified against. ISO/IEC 27002 provides the detailed implementation guidance for the controls it references.
+- **CIS Critical Security Controls v8.1**: a prioritized set of safeguards from the Center for Internet Security, grouped into implementation groups so organizations can adopt them based on size and risk profile. Often used as a practical complement to higher-level frameworks like NIST CSF.
+- **SOC 2**: an attestation report based on the AICPA's Trust Services Criteria (security, availability, processing integrity, confidentiality, and privacy). Commonly required by enterprise customers of SaaS and technology vendors as proof of operational security controls.
+- **PCI DSS**: the Payment Card Industry Data Security Standard, technical and operational requirements for any organization that stores, processes, or transmits cardholder data, maintained by the PCI Security Standards Council.
+- **NERC Critical Infrastructure Protection (CIP) standards**: mandatory, enforceable standards from the North American Electric Reliability Corporation governing the cybersecurity of the bulk electric system across the United States and Canada.
+- **Cybersecurity Maturity Model Certification (CMMC)**: a U.S. Department of Defense certification program verifying that contractors and subcontractors in the Defense Industrial Base meet specific cybersecurity maturity levels before handling controlled unclassified information.
+- **NYDFS 23 NYCRR 500**: a cybersecurity regulation from the New York State Department of Financial Services requiring banks, insurers, and other New York-licensed financial services companies to maintain a risk-based cybersecurity program, including incident reporting and executive certification.
+- **GLBA Safeguards Rule**: a rule under the Gramm-Leach-Bliley Act, enforced by the FTC, requiring financial institutions to develop, implement, and maintain a comprehensive information security program to protect customer financial data.
+
+(On the live site, each framework name is a button that expands to reveal its description.)
 
 **How to Choose and Use the Right Frameworks**
 
