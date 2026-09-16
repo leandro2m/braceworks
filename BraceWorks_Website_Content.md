@@ -173,6 +173,17 @@ Cloud environments become complex fast. Multiple accounts, multiple providers, a
 **How we work**
 Assessments draw on native cloud security services (AWS GuardDuty, AWS Config, AWS Security Hub, Microsoft Defender for Cloud, Google Security Command Center) and, where it genuinely fits the client's environment, third-party platforms selected based on your infrastructure and constraints, not a partner relationship.
 
+**Extending Cloud Posture to AI Workloads**
+As organizations adopt generative AI, the security challenge is rarely the model itself. It's the cloud infrastructure, network paths, APIs, and workloads around it. We apply the same cloud and network security discipline used for any critical workload to the AI development lifecycle:
+
+- Training data pipelines: classification, encryption, and access control for the data lakes and buckets used to train or fine-tune models, with segregation between production and training data.
+- Training and fine-tuning workloads: hardening the containers, instances, and functions that run model training, including dependency and supply-chain checks on third-party pretrained models.
+- Inference isolation: segmenting AI inference services from the rest of the environment, the same blast-radius reduction applied to any other critical workload.
+- AI-facing APIs: WAAP/WAF protection, service-to-service authentication, rate limiting, and input/output validation on the endpoints that expose a model to users or applications.
+- Continuous monitoring: extending posture monitoring and immutable logging to AI resources, so drift and anomalies surface the same way they would for any other cloud asset.
+
+For the infrastructure controls (an LLM Gateway, prompt and response inspection, agent boundaries) that defend against prompt injection and MCP tool poisoning, see Generative AI Security Consulting.
+
 **What you get**
 A prioritized, actionable remediation roadmap, not a generic scan report, tailored to your existing tools, budget, risk profile, and operational maturity. Findings are organized by the BRACE methodology's Baseline and Risk stages, so the roadmap connects directly to a governance plan your team can sustain (see Cloud Security Governance & Playbook Development).
 

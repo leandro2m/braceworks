@@ -81,6 +81,63 @@ export default function CloudSecurityPostureAssessmentPage() {
       </section>
 
       <section className="mt-12">
+        <h2 className="text-2xl font-bold text-brand-ink">
+          Extending Cloud Posture to AI Workloads
+        </h2>
+        <p className="mt-4 max-w-4xl text-brand-muted">
+          As organizations adopt generative AI, the security challenge is rarely the
+          model itself. It&apos;s the cloud infrastructure, network paths, APIs, and
+          workloads around it. We apply the same cloud and network security discipline
+          used for any critical workload to the AI development lifecycle:
+        </p>
+        <ul className="mt-4 max-w-4xl list-disc space-y-3 pl-5 text-brand-muted">
+          <li>
+            <strong className="text-brand-ink">Training data pipelines:</strong>{" "}
+            classification, encryption, and access control for the data lakes and
+            buckets used to train or fine-tune models, with segregation between
+            production and training data.
+          </li>
+          <li>
+            <strong className="text-brand-ink">
+              Training and fine-tuning workloads:
+            </strong>{" "}
+            hardening the containers, instances, and functions that run model training,
+            including dependency and supply-chain checks on third-party pretrained
+            models.
+          </li>
+          <li>
+            <strong className="text-brand-ink">Inference isolation:</strong> segmenting
+            AI inference services from the rest of the environment, the same
+            blast-radius reduction applied to any other critical workload.
+          </li>
+          <li>
+            <strong className="text-brand-ink">AI-facing APIs:</strong> WAAP/WAF
+            protection, service-to-service authentication, rate limiting, and
+            input/output validation on the endpoints that expose a model to users or
+            applications.
+          </li>
+          <li>
+            <strong className="text-brand-ink">Continuous monitoring:</strong>{" "}
+            extending posture monitoring and immutable logging to AI resources, so
+            drift and anomalies surface the same way they would for any other cloud
+            asset.
+          </li>
+        </ul>
+        <p className="mt-4 max-w-4xl text-brand-muted">
+          For the infrastructure controls, an LLM Gateway, prompt and response
+          inspection, agent boundaries, that defend against prompt injection and MCP
+          tool poisoning, see{" "}
+          <Link
+            href="/services/generative-ai-security"
+            className="font-semibold text-brand-navy hover:text-brand-slate"
+          >
+            Generative AI Security Consulting
+          </Link>
+          .
+        </p>
+      </section>
+
+      <section className="mt-12">
         <h2 className="text-2xl font-bold text-brand-ink">What you get</h2>
         <p className="mt-4 max-w-4xl text-brand-muted">
           A prioritized, actionable remediation roadmap, not a generic scan report,
