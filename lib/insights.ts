@@ -27,6 +27,13 @@ export const publishedArticles: PublishedArticle[] = [
       "How an LLM Gateway fits alongside the firewalls, WAFs, and identity controls companies already have, and why prompt injection, MCP tool poisoning, and supply chain risk call for inspection at the model layer too.",
     date: "2026-09-13",
   },
+  {
+    slug: "defense-in-depth-for-cloud-infrastructure",
+    title: "Defense in Depth for Cloud Infrastructure",
+    description:
+      "How a Cloud Security Posture Assessment turns into a prioritized, risk-ranked roadmap, why software supply chain risk deserves special attention, and how Zero Trust, WAAP, and continuous monitoring close the loop.",
+    date: "2026-09-17",
+  },
 ];
 
 export const plannedTopics: string[] = [

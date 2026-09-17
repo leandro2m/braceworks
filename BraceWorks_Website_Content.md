@@ -164,16 +164,29 @@ Being vendor-agnostic isn't a slogan on our site. It shapes how engagements are 
 Cloud environments become complex fast. Multiple accounts, multiple providers, and configuration drift outpace any single team's visibility. Our Cloud Security Posture Assessment identifies where that complexity has turned into real exposure, and builds a roadmap your team can actually execute.
 
 **What we assess**
+The assessment inventories the cloud services in use and examines security controls across:
+
 - Multi-cloud configuration and identity posture across AWS, Microsoft Azure, Google Cloud Platform, and Oracle Cloud Infrastructure
-- Internet-facing exposure and attack surface
-- Identity and access management, privileged access, and excess-permission risk
-- Network segmentation and lateral-movement paths
-- Data protection and data-leakage exposure
+- Containers, Kubernetes, and virtual machines
+- Networks, applications, and APIs
+- Data and identity protection, including privileged and excess-permission risk
+- Secure development practices and vulnerability management
+- Software supply chain risk: the open-source components and third-party dependencies your applications are built on
 - Compliance gaps against relevant frameworks and internal policy
-- API security and application-layer risk within cloud-hosted systems
+
+Software supply chain risk gets particular attention because most modern software is not built from scratch. See Defense in Depth for Cloud Infrastructure for why that matters and how we approach it.
 
 **How we work**
 Assessments draw on native cloud security services (AWS GuardDuty, AWS Config, AWS Security Hub, Microsoft Defender for Cloud, Google Security Command Center) and, where it genuinely fits the client's environment, third-party platforms selected based on your infrastructure and constraints, not a partner relationship.
+
+**How we remediate**
+Findings turn into a remediation architecture built on three pillars:
+
+- Zero Trust architecture: aligned with NIST SP 800-207 and SP 800-207A for cloud-native applications across multicloud environments, with access controls based on user and workload identity, least-privilege access, increased traffic visibility, and encryption for connections and data in transit.
+- Application and API protection: virtual patching and Web Application and API Protection (WAAP) tailored to your application, reducing exposure to vulnerabilities exploitable through web and API traffic while permanent fixes are developed. Coverage is evaluated for each vulnerability, not assumed.
+- Continuous monitoring: Cloud Security Posture Management (CSPM), vulnerability scanning and patch management, Software Composition Analysis (SCA) and dependency monitoring, and SIEM to detect suspicious activity, including exploitation of vulnerabilities not yet remediated, plus containment mechanisms to limit the impact of an incident.
+
+See Defense in Depth for Cloud Infrastructure for the full breakdown of how these pillars fit together.
 
 **Extending Cloud Posture to AI Workloads**
 As organizations adopt generative AI, the security challenge is rarely the model itself. It's the cloud infrastructure, network paths, and APIs around it. We apply the same cloud and network security discipline used for any critical workload to the infrastructure that runs and exposes AI services:

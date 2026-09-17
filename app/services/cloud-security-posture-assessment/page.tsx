@@ -43,17 +43,20 @@ export default function CloudSecurityPostureAssessmentPage() {
 
       <section className="mt-12">
         <h2 className="text-2xl font-bold text-brand-ink">What we assess</h2>
+        <p className="mt-4 max-w-4xl text-brand-muted">
+          The assessment inventories the cloud services in use and examines security
+          controls across:
+        </p>
         <ul className="mt-4 max-w-4xl list-disc space-y-3 pl-5 text-brand-muted">
           <li>
             Multi-cloud configuration and identity posture across AWS, Microsoft Azure,
             Google Cloud Platform, and Oracle Cloud Infrastructure
           </li>
-          <li>Internet-facing exposure and attack surface</li>
-          <li>
-            Identity and access management, privileged access, and excess-permission risk
-          </li>
-          <li>Network segmentation and lateral-movement paths</li>
-          <li>Data protection and data-leakage exposure</li>
+          <li>Containers, Kubernetes, and virtual machines</li>
+          <li>Networks, applications, and APIs</li>
+          <li>Data and identity protection, including privileged and excess-permission risk</li>
+          <li>Secure development practices and vulnerability management</li>
+          <li>Software supply chain risk: the open-source components and third-party dependencies your applications are built on</li>
           <li>
             Compliance gaps against relevant frameworks and internal policy (e.g., SOC
             2, ISO/IEC 27001, NIST CSF 2.0), see{" "}
@@ -65,8 +68,18 @@ export default function CloudSecurityPostureAssessmentPage() {
             </Link>{" "}
             for how we help you align with them
           </li>
-          <li>API security and application-layer risk within cloud-hosted systems</li>
         </ul>
+        <p className="mt-4 max-w-4xl text-brand-muted">
+          Software supply chain risk gets particular attention because most modern
+          software is not built from scratch. See{" "}
+          <Link
+            href="/insights/defense-in-depth-for-cloud-infrastructure"
+            className="font-semibold text-brand-navy hover:text-brand-slate"
+          >
+            Defense in Depth for Cloud Infrastructure
+          </Link>{" "}
+          for why that matters and how we approach it.
+        </p>
       </section>
 
       <section className="mt-12">
@@ -77,6 +90,47 @@ export default function CloudSecurityPostureAssessmentPage() {
           and, where it genuinely fits the client&apos;s environment, third-party
           platforms selected based on your infrastructure and constraints, not a partner
           relationship.
+        </p>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold text-brand-ink">How we remediate</h2>
+        <p className="mt-4 max-w-4xl text-brand-muted">
+          Findings turn into a remediation architecture built on three pillars:
+        </p>
+        <ul className="mt-4 max-w-4xl list-disc space-y-3 pl-5 text-brand-muted">
+          <li>
+            <strong className="text-brand-ink">Zero Trust architecture:</strong>{" "}
+            aligned with NIST SP 800-207 and SP 800-207A for cloud-native applications
+            across multicloud environments, with access controls based on user and
+            workload identity, least-privilege access, increased traffic visibility,
+            and encryption for connections and data in transit.
+          </li>
+          <li>
+            <strong className="text-brand-ink">Application and API protection:</strong>{" "}
+            virtual patching and Web Application and API Protection (WAAP) tailored to
+            your application, reducing exposure to vulnerabilities exploitable through
+            web and API traffic while permanent fixes are developed. Coverage is
+            evaluated for each vulnerability, not assumed.
+          </li>
+          <li>
+            <strong className="text-brand-ink">Continuous monitoring:</strong> Cloud
+            Security Posture Management (CSPM), vulnerability scanning and patch
+            management, Software Composition Analysis (SCA) and dependency
+            monitoring, and SIEM to detect suspicious activity, including exploitation
+            of vulnerabilities not yet remediated, plus containment mechanisms to
+            limit the impact of an incident.
+          </li>
+        </ul>
+        <p className="mt-4 max-w-4xl text-brand-muted">
+          See{" "}
+          <Link
+            href="/insights/defense-in-depth-for-cloud-infrastructure"
+            className="font-semibold text-brand-navy hover:text-brand-slate"
+          >
+            Defense in Depth for Cloud Infrastructure
+          </Link>{" "}
+          for the full breakdown of how these pillars fit together.
         </p>
       </section>
 
