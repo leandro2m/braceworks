@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Bot, ArrowRight } from "lucide-react";
+import CsaBadge from "@/components/CsaBadge";
 
 export const metadata: Metadata = {
   title: "Generative AI Security Consulting | BRACEWorks - Cloud & AI Security",
@@ -24,15 +25,20 @@ export const metadata: Metadata = {
 export default function GenerativeAiSecurityPage() {
   return (
     <div className="mx-auto max-w-content px-4 py-16 sm:py-20">
-      <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-md bg-brand-navy/10 text-brand-navy">
-        <Bot aria-hidden="true" className="h-7 w-7" strokeWidth={1.75} />
+      <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
+        <div>
+          <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-md bg-brand-navy/10 text-brand-navy">
+            <Bot aria-hidden="true" className="h-7 w-7" strokeWidth={1.75} />
+          </div>
+          <h1 className="max-w-4xl text-4xl font-bold text-brand-ink">
+            Generative AI Security Consulting
+          </h1>
+          <p className="mt-2 text-sm font-semibold uppercase tracking-wide text-brand-navy">
+            LLM &amp; Agentic AI Security
+          </p>
+        </div>
+        <CsaBadge />
       </div>
-      <h1 className="max-w-4xl text-4xl font-bold text-brand-ink">
-        Generative AI Security Consulting
-      </h1>
-      <p className="mt-2 text-sm font-semibold uppercase tracking-wide text-brand-navy">
-        LLM &amp; Agentic AI Security
-      </p>
 
       <section className="mt-10">
         <h2 className="text-2xl font-bold text-brand-ink">Overview</h2>
