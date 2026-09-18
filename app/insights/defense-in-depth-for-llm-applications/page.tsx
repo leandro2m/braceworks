@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import CsaBadge from "@/components/CsaBadge";
 import { publishedArticles } from "@/lib/insights";
 
 const article = publishedArticles[2];
@@ -26,8 +27,13 @@ const linkClass = "font-semibold text-brand-navy hover:text-brand-slate";
 export default function DefenseInDepthForLlmApplicationsArticlePage() {
   return (
     <article className="mx-auto max-w-4xl px-4 py-16 sm:py-20">
-      <p className="text-sm text-brand-muted">BRACEWorks - Cloud &amp; AI Security</p>
-      <h1 className="mt-2 text-4xl font-bold text-brand-ink">{article.title}</h1>
+      <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
+        <div>
+          <p className="text-sm text-brand-muted">BRACEWorks - Cloud &amp; AI Security</p>
+          <h1 className="mt-2 text-4xl font-bold text-brand-ink">{article.title}</h1>
+        </div>
+        <CsaBadge />
+      </div>
 
       <p className="mt-8 text-brand-muted">
         Companies are moving quickly to put AI into everyday work. Employees are using
